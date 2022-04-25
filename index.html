@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registr form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <script src="notif.js"></script> -->
+    <div class="page">
+        <form class="js-form" action="" novalidate >
+            <div class="form__group">
+                <input type="text" class="input js-input" name="lastname" placeholder="Last name"  >
+            </div>
+            <div class="form__group">
+                <input type="text" class="input js-input" name="firstname" placeholder="First name"  >
+            </div>
+            <div class="form__group">
+                <input type="text" class="input js-input" name="patronymic" placeholder="Patronymic"  >
+            </div>
+            <div class="form__group">
+                <input type="text" class="input  js-input js-input-username" name="username" placeholder="Username"  >
+            </div>
+            <div class="form__group">
+                <input type="email" class="input js-input js-input-email" name="email" placeholder="Email"  >
+            </div>
+            <div class="form__group">
+                <input type="password" class="input js-input js-input-password" name="password" placeholder="Password"  >
+            </div>
+            <div class="form__group">
+                <input type="radio" id="male" name="gender"/>
+                <label for="male" id="male">male</label>
+                <input type="radio" id="female"name="gender"/>
+                <label for="female" id="female">female</label>
+            </div>
+            <button class="btn" type="submit">
+                Submit form
+            </button>
+        </form>
+    </div>
+    <script src="js.js">
+    </script>
+    <!-- <body onload='popBox()'> -->
+    </body>
+</body>
+</html>
